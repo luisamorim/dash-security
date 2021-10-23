@@ -36,6 +36,6 @@ tasks.withType<Test> {
 
 tasks.withType<Jar> {
 	manifest {
-		attributes["Main-Class"] = "br.com.amorim.dash.DashApplication"
+		attributes["Main-Class"] = "br.com.amorim.dash.DashApplicationKt"
 	}
 }
