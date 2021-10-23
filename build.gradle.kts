@@ -34,8 +34,7 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-tasks.withType<Jar> {
-	manifest {
-		attributes["Main-Class"] = "br.com.amorim.dash.DashApplicationKt"
-	}
+springBoot {
+		mainClass.set("br.com.amorim.dash.DashApplicationKt")
 }
+
